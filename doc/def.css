@@ -1,0 +1,101 @@
+BODY
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  color: #161616;
+  margin: 2%;
+}
+
+
+HR
+{
+  border: solid 1px #C0C9DF;
+}
+
+
+I
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  color: #0000A0;
+}
+
+
+U
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #00A000;
+}
+
+
+A
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3030C0;
+  text-decoration: none;
+}
+
+
+A:hover
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #9090F0;
+  text-decoration: none;
+}
+
+
+TABLE.tbl
+{
+  border: solid 1px #0070A9;
+  background-color: #C0C9DF;
+}
+
+
+PRE
+{
+  font-family: "Courier New", Monospaced, Courier;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  color: #000090;
+  border: dashed 1px #C077B0;
+  background-color: #FFF9FF;
+  padding: 10px;
+}
+
+
+PRE.a
+{
+  font-family: "Courier New", Monospaced, Courier;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color: #E0E0E0;
+  border: double inset 3px #C0C0C0;
+  background-color: #000000;
+  padding: 10px;
+}
+
+
+.ab
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color: #B05989;
+}

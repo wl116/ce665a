@@ -1,0 +1,65 @@
+/*
+
+ ' Program - Chobi Dekha
+ ' File Name - chobi_dekha.css
+ ' Author - Shovon
+ ' Email - shuvorim@yahoo.com
+ ' Web site - http://www29.websamba.com/shovon
+ ' (C) ShuvoRim Pvt. Ltd.
+ ' All rights reserved.
+
+ ' Mailing Address-
+ ' North Palace (8th Floor), Flat-9A
+ ' 75, North Road, Dhanmondi
+ ' Dhaka-1205, Bangladesh.
+
+
+ ' This program is free software; you can redistribute it and/or modify
+ ' it under the terms of the GNU General Public License as published by
+ ' the Free Software Foundation; either version 2 of the License, or
+ ' (at your option) any later version.
+
+ ' This program is distributed in the hope that it will be useful,
+ ' but WITHOUT ANY WARRANTY; without even the implied warranty of
+ ' MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ ' GNU General Public License for more details.
+
+ ' You should have received a copy of the GNU General Public License
+ ' along with this program; if not, write to the Free Software
+ ' Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+
+
+
+A.c
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 14px;
+  text-decoration: none;
+  color: #E9D000;
+}
+
+
+A.c:hover
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 14px;
+  text-decoration: none;
+  color: #009900;
+  background-color: #F0F0F0;
+}
+
+
+TD
+{
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-size: 12px;
+  padding: 4px;
+}
+
+
+LI
+{
+  list-style-image: url(./star.gif);
+}

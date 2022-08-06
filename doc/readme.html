@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>ReadMe</title>
+<link rel="stylesheet" href="./def.css" type="text/css">
+</head>
+<body>
+
+
+
+<i>Chobi Dekha</i>
+
+
+
+<br>
+
+
+
+<small>Version 1.1</small>
+
+
+
+<hr><br>
+<u>Table of Contents:</u>
+<ul type="square">
+<li><a href="readme.html#des" title="Description">Description</a>
+<li><a href="readme.html#ins" title="Installation">Installation</a>
+<li><a href="readme.html#set" title="Settings">Settings</a>
+<li><a href="readme.html#chg" title="Changes">Changes</a>
+<li><a href="readme.html#abt" title="About">About</a>
+</ul>
+<br><br><br>
+<p>
+<a name="des"><u>Description:</u></a>
+<br>
+
+
+
+You can use Chobi Dekha to build your web site's image gallery. It shows a small preview of the original image before launching the actual image. It will open the the larger version of the image in a popup window on demand. It loads only one thumbnail at a time. Thus, it saves time and your image gallery will load faster. All you have to make some simple changes. A graphical, JavaScript supported modern web browser is required to display this script. Chobi Dekha can run on all major graphical web browsers, like Microsoft Internet Explorer, Firefox, Netscape Navigator, Mozilla, Opera, Konqueror, Galeon, Safari, Camino and Epiphany.
+
+<br><br>
+
+Because this script is written entirely with JavaScript, it fully depends on the web browser, not on the operating system. So, you can view it on all modern graphical operating systems, like Microsoft Windows, Mac OS, Mac OS X, and several UNIX clones (Solaris, *BSD, Linux etc).
+
+<br><br>
+
+If you are curious to know, "Chobi" and "Dekha" are two separate Bengla words. "Chobi" stands for "Image/Art", and "Dekha" stands for "Viewing/Seeing". When we use them together, we actually mean enjoying a movie (more common).
+
+<br><br>
+
+Comments and feedbacks are very much appreciated regarding to this script. Thank you very much for using Chobi Dekha.
+
+
+
+</p>
+<br><br><br>
+<p>
+<a name="ins"><u>Installation:</u></a>
+<br>
+
+
+
+Below you can find installation instructions for several operating systems. Please note that you will need a graphical, JavaScript (v1.3 and up) supported web browser to run this script.
+
+<br><br><br>
+
+<b class="ab">On Windows-</b>
+Unpack the .zip file with an archiving tool, like WinZip or WinRAR. Windows ME, XP and 2003 already got a built-in archiving tool. Now open the 'chobi_dekha.html' file with your favorite web browser.
+
+<br><br><br>
+
+
+<b class="ab">On Linux-</b>
+Unpack the .zip file with an archiving tool, like File Roller or unzip. Now open the 'chobi_dekha.html' file with your favorite web browser.
+
+<br><br><br>
+
+
+<b class="ab">On other operating systems-</b>
+Please follow the instructions provided for Linux.
+
+
+
+
+</p>
+<br><br><br>
+<p>
+<a name="set"><u>Settings:</u></a>
+<br>
+
+
+
+Open the 'chobi_dekha.html' file with a plain text editor (e.g. NotePad, gEdit, kEdit). Scroll down, you will see some well documented variables. You have to provide some information in the following sections for Chobi Dekha to work properly.
+
+<br><br>
+
+
+<pre>
+/****************************************
+ * Here you provide the location of the
+ * first hi-resolution image, which will
+ * be opened as soon as the user clicks
+ * on the first thumbnail.
+ ****************************************/
+var url = "./img/river1.jpg";
+</pre>
+
+
+Provide the location of the initial hi-resolution image inside the 'url' variable. This image will be opened in a popup window when the visitor clicks on the initial thumbnail.
+
+
+<pre>
+&lt;!-- Provide the location of the thumbnail which should be displayed
+     first. --&gt;
+&lt;img src="./thumbs/river1.jpg" style="border: 1px solid #E9D000;"
+     name="preview" border="0" width="150" height="100"
+     alt="Click on the image to enlarge"&gt;&lt;/a&gt;
+</pre>
+
+
+Provide the initial thumbnail to display inside the &lt;img&gt; tag. It will be displayed as the first preview image of your image gallery as soon as the web page loads.
+
+
+<pre>
+&lt;!-- Add more links (&lt;a&gt; tag) here and provide necessary arguments to
+     loadImage() function. --&gt;
+&lt;li&gt;&lt;a href="#" class="c" onclick="loadImage('./thumbs/river1.jpg',
+'./img/river1.jpg')"&gt;Rivers of Bangladesh (1)&lt;/a&gt;
+</pre>
+
+
+You should add 20 &lt;a&gt; tags if there are 20 images inside your image gallery. Provide the thumbnail and hi-resolution image's location inside the loadImage() function.
+
+
+
+
+</p>
+<br><br><br>
+<p>
+<a name="chg"><u>Changes:</u></a>
+<br><br>
+
+
+
+<b class="ab">Version 1.1</b>
+<ul>
+
+<li>Removed previous license and released under <a href="http://www.gnu.org/licenses/gpl.txt">GNU General Public License</a>.
+<li>Functions and style sheet rules used in this script are now placed on separate .js and .css files under the /src directory. Now it's easier to debug, modify and add new features to the script.
+<li>Added narrative comments and made some changes in the style sheet.
+<li>Minor fixes.
+<li>Documentation updated.
+</ul>
+
+
+<b class="ab">Version 1.0</b>
+<ul>
+
+<li>Initial release.
+
+
+
+</ul>
+</p>
+<br><br><br>
+<p>
+<a name="abt"><u>About:</u></a>
+<br>
+Author: Shovon<br>
+Email: <a href="mailto:shuvorim@yahoo.com">shuvorim@yahoo.com</a><br>
+Web: <a href="http://www29.websamba.com/shovon/">http://www29.websamba.com/shovon</a><br>
+&copy;ShuvoRim Pvt. Ltd.<br>
+All rights reserved.<br><br>
+<b>Mailing Address-</b><br>
+North Palace (8th Floor), Flat-9A<br>
+75, North Road, Dhanmondi<br>
+Dhaka-1205, Bangladesh.
+</p>
+<br><br>
+</body>
+</html>
